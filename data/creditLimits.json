@@ -1,0 +1,32 @@
+{
+    "Valid increase within range" : {
+        "limit" : 4000,
+        "expectedResult" : "pass"
+    },
+
+    "Maximum increase within limit" : {
+        "limit" : 5000,
+        "expectedResult" : "pass"
+    },
+
+    "Invalid increase above maximum" : {
+        "limit" : 6000,
+        "expectedResult" : "fail"
+    },
+    "Valid decrease within range" : {
+        "limit" : 500,
+        "expectedResult" : "pass"
+    },
+
+    "Minimum decrease within limit" : {
+        "limit" : 100,
+        "expectedResult" : "pass"
+    },
+
+    "Invalid decrease below minimum" : {
+        "limit" : 0,
+        "expectedResult" : "fail"
+    }
+
+
+}
